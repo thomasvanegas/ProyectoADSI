@@ -1,0 +1,72 @@
+﻿@page
+@model LaFritanguitaEcommerce.App.Presentacion.Pages_Productos.create_productModel
+@{
+}
+
+<!-- HTML || COMPONENTES DE BOOTSTRAP -->
+
+<form>
+
+    <div class="form-group">
+        <label for="nombre-producto">Nombre del Producto</label>
+        <input type="text" class="form-control" id="nombre-producto"
+            placeholder="Escriba Aquí El Nombre del Producto...">
+        <small id="emailHelp" class="form-text text-muted">Este será el nombre que aparecerá en el ecommerce para los
+            clientes de La Fritanguita</small>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Categoría</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+            <option>Seleccionar Categoría...</option>
+            <option>Bebidas Alcohólicas</option>
+            <option>Bebidas No Alcohólicas</option>
+            <option>Carnes Frías</option>
+            <option>Lacteos</option>
+            <option>Mascotas</option>
+            <option>Helados</option>
+            <option>Granos</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="precio-producto">Precio del Producto (Sin comas, Sin puntos)</label>
+        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Precio del Producto">
+    </div>
+
+    <div class="form-group">
+        <label for="formGroupExampleInput">Peso o Volúmen del Producto</label>
+        <input type="text" class="form-control" id="formGroupExampleInput"
+            placeholder="Peso o Volúmen del Producto ... ejemplo: 1L, 500mL, 500gr...">
+    </div>
+
+    <div class="custom-file">
+        <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+        <label class="custom-file-label" for="customFileLang">Seleccionar Imágen del Producto</label>
+    </div>
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Descripción del Producto</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+        <label class="custom-control-label" for="customSwitch1">¿Está Disponible?</label>
+    </div>
+
+    <div class="form-group">
+        <label for="precio-producto">Cantidad Disponible</label>
+        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Precio del Producto">
+    </div>
+
+    <div class="form-group">
+        <label for="formGroupExampleInput">Nombre del Proveedor</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre del Proveedor">
+    </div>
+
+    <div class="d-grid gap-2">
+        <button type="button" class="btn btn-success">CREAR PRODUCTO</button>
+    </div>
+
+</form>

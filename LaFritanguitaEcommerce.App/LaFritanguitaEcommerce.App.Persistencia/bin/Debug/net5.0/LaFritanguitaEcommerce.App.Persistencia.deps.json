@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LaFritanguitaEcommerce.App.Persistencia/1.0.0": {
+        "dependencies": {
+          "LaFritanguitaEcommerce.App.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "LaFritanguitaEcommerce.App.Persistencia.dll": {}
+        }
+      },
+      "LaFritanguitaEcommerce.App.Dominio/1.0.0": {
+        "runtime": {
+          "LaFritanguitaEcommerce.App.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LaFritanguitaEcommerce.App.Persistencia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LaFritanguitaEcommerce.App.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

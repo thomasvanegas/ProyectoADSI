@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LaFritanguitaEcommerce.App.Dominio\LaFritanguitaEcommerce.App.Dominio.csproj" />
+    <ProjectReference Include="..\LaFritanguitaEcommerce.App.Persistencia\LaFritanguitaEcommerce.App.Persistencia.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
